@@ -1,19 +1,20 @@
-# Project name
+# Grow base app
 
-A short introduction to your project could go here. This README outlines the details of collaborating on this Grow website.
+Create a site with Grow
 
-## Prerequisites
+Author: Vu Nguyen &lt;[nguyendaivu73.qb@gmail.com](nguyendaivu73.qb@gmail.com)&gt;
 
-At a minimum, you will need the following tools installed:
+Deploy to Netlify: [https://grow-base-app.netlify.app/](https://grow-base-app.netlify.app/)
 
-1. [Git](http://git-scm.com/)
-2. [Grow](https://grow.io)
+## Requirements
 
-If you do not have Grow, you can install it using:
+- [Node](https://nodejs.org/en/) &gt;=12.0.0 / [npm](https://www.npmjs.com/) &gt;=6.9.0
+  - Recommend installing with [nvm](https://github.com/creationix/nvm)
+- [Grow](https://grow.io) &gt;=0.8.27
 
-```
-curl https://install.growsdk.org | bash
-```
+## Getting Started
+
+Step by step to run this app in your local
 
 ## Running the development server
 
@@ -41,3 +42,7 @@ Once you are ready to share your changes with your team, you can stage your work
 ```
 grow stage
 ```
+
+_You can update the source structures to follow your patterns._
+
+_Note: Live-reload is not supported_
