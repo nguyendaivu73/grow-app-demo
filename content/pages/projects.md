@@ -3,7 +3,7 @@ $title: Projects
 $order: 2
 description: Learn about all our projects.
 ---
-## Projects
+# Projects
 
 This is a list of our projects:
 

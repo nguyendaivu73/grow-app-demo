@@ -1,6 +1,6 @@
 grow_version: ">=0.2.5"
 
-title: "Site Title"
+title: "Grow"
 
 home: /content/pages/home.yaml
 
@@ -13,8 +13,13 @@ meta:
   image_path: ""
   favicon_path: /static/images/favicon.png
   social:
-    twitter: example
-    facebook: example
+    - type: Facebook
+      host: https://www.facebook.com/
+      username: example
+      icon:
+    - type: Twitter
+      host: https://www.twitter.com/
+      username: example
 
 preprocessors:
 - kind: gulp
